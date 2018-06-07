@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac6bdfd-78e3-47dd-a091-ab60e8f796ba" name="Default" comment="" />
+    <list default="true" id="9ac6bdfd-78e3-47dd-a091-ab60e8f796ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/nuvola-datepicker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nuvola-datepicker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvola-datepicker/js/nuvola-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuvola-datepicker/js/nuvola-datetimepicker.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nuvola-datepicker/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            <state relative-caret-position="712">
+              <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nuvola-datetimepicker.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nuvola-datetimepicker.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nuvola-datepicker/scss/nuvola-datetimepicker.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="686">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -32,8 +35,8 @@
       <file leaf-file-name="nuvola-datetimepicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nuvola-datepicker/js/nuvola-datetimepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32011">
-              <caret line="397" column="22" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
+            <state relative-caret-position="441">
+              <caret line="401" column="64" lean-forward="true" selection-start-line="401" selection-start-column="64" selection-end-line="401" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -57,6 +60,7 @@
       <find>.old</find>
       <find>day.add</find>
       <find>14</find>
+      <find>xs-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,6 +108,12 @@
               <item name="Nuvoladatepickercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="nuvola-datepicker" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Nuvoladatepickercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nuvoladatepickercalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="nuvola-datepicker" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +152,7 @@
       <workItem from="1528224947856" duration="689000" />
       <workItem from="1528251384774" duration="670000" />
       <workItem from="1528293125242" duration="598000" />
-      <workItem from="1528410788486" duration="2509000" />
+      <workItem from="1528410788486" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion con nuvola, error no cambiaba el mes al seleccionar un dia del mes anterior o siguiente">
       <created>1528413119406</created>
@@ -155,7 +165,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4568000" />
+    <option name="totallyTimeSpent" value="4850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="22" width="1280" height="1367" extended-state="0" />
@@ -281,16 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuvola-datepicker/js/nuvola-datetimepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32011">
-          <caret line="397" column="22" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -298,17 +298,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuvola-datepicker/index.html">
+    <entry file="file://$PROJECT_DIR$/nuvola-datepicker/scss/nuvola-datetimepicker.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        <state relative-caret-position="686">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuvola-datepicker/scss/nuvola-datetimepicker.scss">
+    <entry file="file://$PROJECT_DIR$/nuvola-datepicker/js/nuvola-datetimepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="441">
+          <caret line="401" column="64" lean-forward="true" selection-start-line="401" selection-start-column="64" selection-end-line="401" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvola-datepicker/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
         </state>
       </provider>
     </entry>

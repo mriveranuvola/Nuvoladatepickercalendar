@@ -396,8 +396,8 @@
                     }
                     template.append(
                         $('<div>').addClass('row')
-                            .append(dateView.addClass('col-xs-7 rborder'))
-                            .append(timeView.addClass('col-xs-5'))
+                            .append(dateView.addClass('col-xs-14 rborder'))
+                            .append(timeView.addClass('col-xs-10'))
                     );
                     if (options.toolbarPlacement === 'bottom') {
                         template.append(toolbar);

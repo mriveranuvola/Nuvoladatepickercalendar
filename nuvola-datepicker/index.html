@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Date Picker Nuvola</title>
+
+
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="moment/min/moment-with-locales.js"></script>
+    <script src="js/nuvola-datetimepicker.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/nuvola-datetimepicker.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+
+    <style>
+        .picker-wrapper{
+            width: 400px;
+        }
+
+        h1 {
+            padding: 0px 0px 20px 0px;
+        }
+        body{
+            padding: 200px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<section>
+    <header>
+        <h1>Date Pickers - Nuvola Calendar</h1>
+    </header>
+    <div class="picker-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class='col-sm-12'>
+                    date & time
+                    <div class="form-group">
+                        <div class='input-group date' >
+                            <input id='datetimepicker1' type='text' class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class='col-sm-12'>
+                    DATE
+                    <div class="form-group">
+                        <div class='input-group date' style="margin-top:300px">
+                            <input id='datetimepicker2' type='text' class="form-control" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class='col-sm-12' style="margin-top:300px">
+                    TIMER
+                    <div class="form-group">
+                        <div class='input-group date' >
+                            <input id='datetimepicker3' type='text' class="form-control" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script >
+    $(document).ready(function(){
+        $('#datetimepicker1').nuvoladatepicker({
+            defaultDate:moment("16/12/1984","DD/MM/YYYY")
+        });
+        $('#datetimepicker2').nuvoladatepicker({
+            format:'L'
+        });
+        $('#datetimepicker3').nuvoladatepicker({
+            format:'LT',
+
+        });
+    })
+
+
+
+</script>
+
+
+</body>
+</html>

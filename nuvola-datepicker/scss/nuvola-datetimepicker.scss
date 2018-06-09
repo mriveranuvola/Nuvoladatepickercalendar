@@ -7,7 +7,7 @@
 $bs-datetimepicker-timepicker-font-size: 1 em !default;
 $bs-datetimepicker-active-bg: #7397ac !default;
 $bs-datetimepicker-active-color: #ffff !default;
-$bs-datetimepicker-border-radius: 7px !default;
+$bs-datetimepicker-border-radius: 0.5833333333333334em !default;
 $bs-datetimepicker-btn-hover-bg: $gray-lighter !default;
 $bs-datetimepicker-disabled-color: $gray-light !default;
 $bs-datetimepicker-alternate-color: $gray-light !default;
@@ -51,7 +51,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   //text-shadow: 4px 4px 4px #aaa;
   & .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 1.1666666666666667em/1 FontAwesome;
     font-size: $font-size*2;
     color: $divider-color;
     text-rendering: auto;
@@ -60,7 +60,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   }
 
   &.dropdown-menu {
-    margin: 2px 0;
+    margin: 0.16666666666666666em 0;
     padding: 2em 2em 2em 2em;
     z-index: 1060;
     max-width: none !important;
@@ -101,7 +101,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
           & table{
             padding-left: 0.5em;
             & tbody tr td {
-              font-size: 11px;
+              font-size: 0.9166666666666666em;
 
               &.bg-light-grey{
                 padding: 2.3em 0.9em;
@@ -119,8 +119,8 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
           width: 100%;
           margin: 0 auto;
           & td{
-            padding: 13px 0px;
-            font-size: 13px;
+            padding:1.0833333333333333em 0;
+            font-size: 1.2em;
           }
         }
       }
@@ -142,7 +142,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
           & table{
             padding-left: 0.5em;
             & tbody tr td {
-              font-size: 11px;
+              font-size: 0.9166666666666666em;
 
               &.bg-light-grey{
                 padding: 2.3em 0.9em;
@@ -160,8 +160,8 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
           width: 100%;
           margin: 0 auto;
           & td{
-            padding: 13px 0px;
-            font-size: 13px;
+            padding: 1.0833333333333333em 0;
+            font-size: 1.2em;
           }
         }
       }
@@ -191,51 +191,51 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
     &.bottom {
       &:before {
-        border-left: 7px solid transparent;
-        border-right: 7px solid transparent;
-        border-bottom: 7px solid $bs-datetimepicker-secondary-border-color;
+        border-left: 0.5833333333333334em solid transparent;
+        border-right: 0.5833333333333334em solid transparent;
+        border-bottom: 0.5833333333333334em solid $bs-datetimepicker-secondary-border-color;
         border-bottom-color: $bs-datetimepicker-secondary-border-color-rgba;
-        top: -7px;
-        left: 7px;
+        top: -0.5833333333333334em;
+        left: 0.5833333333333334em;
       }
 
       &:after {
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-bottom: 6px solid $bs-datetimepicker-primary-border-color;
-        top: -6px;
-        left: 8px;
+        border-left: 0.5em solid transparent;
+        border-right: 0.5em solid transparent;
+        border-bottom: 0.5em solid $bs-datetimepicker-primary-border-color;
+        top: -0.5em;
+        left: 0.6666666666666666em;
       }
     }
 
     &.top {
       &:before {
-        border-left: 7px solid transparent;
-        border-right: 7px solid transparent;
-        border-top: 7px solid $bs-datetimepicker-secondary-border-color;
+        border-left: 0.5833333333333334em solid transparent;
+        border-right: 0.5833333333333334em solid transparent;
+        border-top: 0.5833333333333334em solid $bs-datetimepicker-secondary-border-color;
         border-top-color: $bs-datetimepicker-secondary-border-color-rgba;
-        bottom: -7px;
-        left: 6px;
+        bottom: -0.5833333333333334em;
+        left: 0.5em;
       }
 
       &:after {
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-top: 6px solid $bs-datetimepicker-primary-border-color;
-        bottom: -6px;
-        left: 7px;
+        border-left: 0.5em solid transparent;
+        border-right: 0.5em solid transparent;
+        border-top: 0.5em solid $bs-datetimepicker-primary-border-color;
+        bottom: -0.5em;
+        left: 0.5833333333333334em;
       }
     }
 
     &.pull-right {
       &:before {
         left: auto;
-        right: 6px;
+        right: 0.5em;
       }
 
       &:after {
         left: auto;
-        right: 7px;
+        right: 0.5833333333333334em;
       }
     }
   }
@@ -245,7 +245,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   }
 
   a[data-action] {
-    padding: 4px 0;
+    padding: 0.3333333333333333em 0;
   }
 
   a[data-action]:active {
@@ -272,7 +272,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   }
 
   button[data-action] {
-    padding: 6px;
+    padding: 0.5em;
   }
 
   .btn[data-action="incrementHours"]::after {
@@ -426,9 +426,9 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
         tbody {
           & tr {
             & td {
-              height: 10px;
-              line-height: 10px;
-              width: 30px;
+              height: 0.8333333333333334em;
+              line-height: 0.8333333333333334em;
+              width: 2.5em;
               text-align: center;
               & a {
 
@@ -475,7 +475,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
   & div.datepicker table {
     width: 100%;
-    margin-top: 6px;
+    margin-top: 0.5em;
 
 
     & td,
@@ -485,12 +485,12 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
     }
 
     & th {
-      height: 20px;
-      line-height: 20px;
-      width: 20px;
+      height: 1.66667em;
+      line-height: 1.66667em;
+      width: 1.66667em;
 
       &.picker-switch {
-        width: 145px;
+        width: 12.083333333333334em;
       }
 
       &.disabled,
@@ -520,21 +520,21 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
     }
 
     & td {
-      height: 54px;
-      line-height: 54px;
-      width: 60px;
+      height: 4.5em;
+      line-height: 4.5em;
+      width: 5em;
 
       &.cw {
-        font-size: .8em;
-        height: 20px;
-        line-height: 20px;
+        font-size: 0.8em;
+        height: 1.66667em;
+        line-height: 1.66667em;
         color: $bs-datetimepicker-alternate-color;
       }
 
       &.day {
         height: 2em;
         line-height: 1.1em;
-        width: 20px;
+        width: 1.66667em;
         font-size: 1.15em;
         &.active{
           span.day-bg{
@@ -579,7 +579,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
           /*content: '';
           display: inline-block;
           border: solid transparent;
-          border-width: 0 0 7px 7px;
+          border-width: 0 0 0.5833333333333334em 0.5833333333333334em;
           border-bottom-color: $bs-datetimepicker-active-bg;
           border-top-color: $bs-datetimepicker-secondary-border-color-rgba;
           position: absolute;
@@ -611,9 +611,9 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
       span:not(.day-bg) {
         display: inline-block;
         min-width: 22%;
-        height: 43px;
-        margin: 3px 1px;
-        line-height: 45px;
+        height: 3.5833333333333335em;
+        margin: 0.25em 0.08333333333333333em;
+        line-height: 3.75em;
         cursor: pointer;
         border-radius: $bs-datetimepicker-border-radius;
 
@@ -648,8 +648,8 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
   &.usetwentyfour {
     td.hour {
-      height: 27px;
-      line-height: 27px;
+      height: 20.5833333333333334em;
+      line-height: 20.5833333333333334em;
     }
   }
 }

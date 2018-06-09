@@ -209,14 +209,14 @@
 
 
                 var headDecade = $('<thead>')
-                        .append($('<tr>')
-                            .append($('<th>').addClass('prev').attr('data-action', 'previous')
-                                .append($('<span>').addClass(options.icons.previous))
-                            )
-                            .append($('<th>').addClass('picker-switch').attr('colspan', (options.calendarWeeks ? '6' : '5')))
-                            .append($('<th>').addClass('next').attr('data-action', 'next')
-                                .append($('<span>').addClass(options.icons.next))
-                            ));
+                    .append($('<tr>')
+                        .append($('<th>').addClass('prev').attr('data-action', 'previous')
+                            .append($('<span>').addClass(options.icons.previous))
+                        )
+                        .append($('<th>').addClass('picker-switch').attr('colspan', (options.calendarWeeks ? '6' : '5')))
+                        .append($('<th>').addClass('next').attr('data-action', 'next')
+                            .append($('<span>').addClass(options.icons.next))
+                        ));
 
                 return [
                     $('<div>').addClass('datepicker-days')
@@ -244,20 +244,20 @@
 
             getTimePickerMainTemplate = function () {
                 var thead = "<thead>" +
-                                "<tr>" +
-                                    "<th colspan='4'>"+options.timer.time+"</th>"+
-                                "</tr>" +
-                            "</thead>";
+                    "<tr>" +
+                    "<th colspan='4'>"+options.timer.time+"</th>"+
+                    "</tr>" +
+                    "</thead>";
                 var tbody = $('<tbody>');
-                var extraTr = $('<tr>');
                 var topRow = $('<tr>'),
                     middleRow = $('<tr>'),
                     bottomRow = $('<tr>');
-
+                /*
+                var extraTr = $('<tr>');
                 extraTr.append($('<td>'));
                 extraTr.append($('<td>'));
                 extraTr.append($('<td>'));
-                extraTr.append($('<td>'));
+                extraTr.append($('<td>'));*/
 
                 if (isEnabled('h')) {
                     topRow.append($('<td>')
@@ -299,7 +299,7 @@
                 }
 
                 if (!use24Hours) {
-                   topRow.append($('<td>').addClass('separator'));
+                    topRow.append($('<td>').addClass('separator'));
                     middleRow.append($('<td>')
                         .append($('<button>').addClass('btn pm-am-btn').attr({ 'data-action': 'togglePeriod', tabindex: '-1', 'title': options.tooltips.togglePeriod })));
                     bottomRow.append($('<td>').addClass('separator'));
@@ -314,15 +314,15 @@
 
                 var hoursView = $('<div>').addClass('timepicker-hours')
                         .append($('<table>').addClass('table-condensed').append(
-                                    "<thead>" +
-                                    "<tr>" +
-                                    "<th colspan='4'>"+options.timer.hours+"</th>"+
-                                    "</tr>" +
-                                    "<tr>" +
-                                    "<th colspan='4'></th>"+
-                                    "</tr>" +
-                                    "</thead>" +
-                                    "<tbody></tbody>")
+                            "<thead>" +
+                            "<tr>" +
+                            "<th colspan='4'>"+options.timer.hours+"</th>"+
+                            "</tr>" +
+                            "<tr>" +
+                            "<th colspan='4'></th>"+
+                            "</tr>" +
+                            "</thead>" +
+                            "<tbody></tbody>")
                         ),
                     minutesView = $('<div>').addClass('timepicker-minutes')
                         .append($('<table>').addClass('table-condensed').append(
@@ -2593,7 +2593,7 @@
                 decrementSecond: 'Decrement Second',
                 togglePeriod: 'Toggle AM/PM',
                 selectTime: 'Select Time'
-              },
+            },
 
             es:{
                 today: 'Ir a hoy',
@@ -2622,7 +2622,7 @@
                 togglePeriod: 'Intercambiar AM/PM',
                 selectTime: 'Seleccionar Hora'
             }
-         },
+        },
         timer:{
             en:{
                 time:'Time',

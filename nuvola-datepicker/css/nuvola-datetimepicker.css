@@ -23,7 +23,7 @@
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 1.6em;
-    color: #c1c0c6;
+    color: #e1e0e2;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
@@ -34,13 +34,15 @@
     max-width: none !important; }
     .nuvola5-dateTimePicker-widget.dropdown-menu.width42em {
       width: 48em !important;
-      padding: 2em 3.5em; }
+      padding: 1em 3.5em 1em 3.5em; }
       .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.datepicker div.datepicker-months table {
         width: 100%; }
         .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.datepicker div.datepicker-months table td {
           padding: 0; }
           .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.datepicker div.datepicker-months table td span {
             padding: 0; }
+      .nuvola5-dateTimePicker-widget.dropdown-menu.width42em li.sidebysidetoolbar {
+        margin-top: -3em; }
       .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker {
         padding: 0 0.5em 0 2.5em; }
         .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker div.timepicker-picker table {
@@ -48,7 +50,7 @@
           .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker div.timepicker-picker table tbody tr td {
             font-size: 11px; }
             .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker div.timepicker-picker table tbody tr td.bg-light-grey {
-              padding: 3em 0.9em; }
+              padding: 2.3em 0.9em; }
             .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker div.timepicker-picker table tbody tr td:last-child {
               text-align: right; }
         .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker div.timepicker-hours table, .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.timepicker div.timepicker-minutes table {
@@ -62,26 +64,23 @@
       .nuvola5-dateTimePicker-widget.dropdown-menu.width28em div.datepicker {
         padding: 0 0 2em 0; }
     .nuvola5-dateTimePicker-widget.dropdown-menu.width20em {
-      width: 20em !important;
-      padding: 0; }
+      width: 20em !important; }
       .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker {
-        padding: 2em; }
+        height: 18em; }
         .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-picker table {
-          width: 100%; }
+          padding-left: 0.5em; }
           .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-picker table tbody tr td {
             font-size: 11px; }
             .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-picker table tbody tr td.bg-light-grey {
-              padding: 3em 0.9em; }
+              padding: 2.3em 0.9em; }
             .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-picker table tbody tr td:last-child {
               text-align: right; }
         .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-hours table, .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-minutes table {
           width: 100%;
           margin: 0 auto; }
           .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-hours table td, .nuvola5-dateTimePicker-widget.dropdown-menu.width20em div.timepicker div.timepicker-minutes table td {
-            padding: 18px 0px;
+            padding: 13px 0px;
             font-size: 13px; }
-      .nuvola5-dateTimePicker-widget.dropdown-menu.width20em li.picker-switch.sidebysidetoolbar {
-        margin-top: -3.8em; }
     .nuvola5-dateTimePicker-widget.dropdown-menu.timepicker-sbs {
                       /*
 
@@ -135,7 +134,7 @@
   .nuvola5-dateTimePicker-widget .list-unstyled {
     margin: 0; }
   .nuvola5-dateTimePicker-widget a[data-action] {
-    padding: 6px 0; }
+    padding: 4px 0; }
   .nuvola5-dateTimePicker-widget a[data-action]:active {
     box-shadow: none; }
   .nuvola5-dateTimePicker-widget .bg-light-grey {
@@ -143,12 +142,12 @@
     border-radius: 7px; }
   .nuvola5-dateTimePicker-widget .timepicker-hour, .nuvola5-dateTimePicker-widget .timepicker-minute, .nuvola5-dateTimePicker-widget .timepicker-second {
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0;
     color: #1f7b99; }
   .nuvola5-dateTimePicker-widget button.pm-am-btn {
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #1f7b99;
     background: #ffffff; }
   .nuvola5-dateTimePicker-widget button[data-action] {
@@ -195,10 +194,10 @@
       height: 2.5em;
       width: 100%; }
   .nuvola5-dateTimePicker-widget .rborder {
-    border-right: 1px solid #c1c0c6; }
+    border-right: 1px solid #e1e0e2; }
   .nuvola5-dateTimePicker-widget div.datepicker {
     padding: 0 2.3em 0 0.5em;
-    height: 23em; }
+    height: 20em; }
     .nuvola5-dateTimePicker-widget div.datepicker table thead tr:first-child {
       font-size: 1.4em;
       color: #1f7b99; }
@@ -207,7 +206,7 @@
     .nuvola5-dateTimePicker-widget div.datepicker table thead tr {
       color: #a4a4a4; }
   .nuvola5-dateTimePicker-widget div.timepicker {
-    height: 23em; }
+    height: 20em; }
     .nuvola5-dateTimePicker-widget div.timepicker table thead tr:first-child {
       font-size: 1.4em;
       color: #1f7b99;
@@ -241,7 +240,7 @@
         cursor: pointer; }
   .nuvola5-dateTimePicker-widget div.datepicker table {
     width: 100%;
-    margin: 0; }
+    margin-top: 6px; }
     .nuvola5-dateTimePicker-widget div.datepicker table td, .nuvola5-dateTimePicker-widget div.datepicker table th {
       text-align: center;
       border-radius: 7px; }
@@ -320,7 +319,7 @@
         display: inline-block;
         min-width: 22%;
         height: 43px;
-        margin: 12px 1px;
+        margin: 3px 1px;
         line-height: 45px;
         cursor: pointer;
         border-radius: 7px; }

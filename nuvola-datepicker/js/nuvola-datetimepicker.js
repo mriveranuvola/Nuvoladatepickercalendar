@@ -207,6 +207,17 @@
                             .append($('<td>').attr('colspan', (options.calendarWeeks ? '8' : '7')))
                         );
 
+
+                var headDecade = $('<thead>')
+                        .append($('<tr>')
+                            .append($('<th>').addClass('prev').attr('data-action', 'previous')
+                                .append($('<span>').addClass(options.icons.previous))
+                            )
+                            .append($('<th>').addClass('picker-switch').attr('colspan', (options.calendarWeeks ? '6' : '5')))
+                            .append($('<th>').addClass('next').attr('data-action', 'next')
+                                .append($('<span>').addClass(options.icons.next))
+                            ));
+
                 return [
                     $('<div>').addClass('datepicker-days')
                         .append($('<table>').addClass('table-condensed')
@@ -220,7 +231,7 @@
                         ),
                     $('<div>').addClass('datepicker-years')
                         .append($('<table>').addClass('table-condensed')
-                            .append(headTemplate.clone())
+                            .append(headDecade)
                             .append(contTemplate.clone())
                         ),
                     $('<div>').addClass('datepicker-decades')
@@ -296,7 +307,7 @@
 
                 return $('<div>').addClass('timepicker-picker')
                     .append($('<table>').addClass('table-condensed').append(thead).append(tbody)
-                        .append([topRow, middleRow, bottomRow, extraTr]));
+                        .append([topRow, middleRow, bottomRow]));
             },
 
             getTimePickerTemplate = function () {

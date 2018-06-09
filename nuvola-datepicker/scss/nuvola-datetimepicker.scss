@@ -7,7 +7,7 @@
 $bs-datetimepicker-timepicker-font-size: 1 em !default;
 $bs-datetimepicker-active-bg: #7397ac !default;
 $bs-datetimepicker-active-color: #ffff !default;
-$bs-datetimepicker-border-radius: $border-radius-base !default;
+$bs-datetimepicker-border-radius: 7px !default;
 $bs-datetimepicker-btn-hover-bg: $gray-lighter !default;
 $bs-datetimepicker-disabled-color: $gray-light !default;
 $bs-datetimepicker-alternate-color: $gray-light !default;
@@ -18,6 +18,7 @@ $bs-datetimepicker-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !default;
 
 
 // COLORS
+
 $font-color: #a7a7a7;
 $font-h-color: #1f7b99;
 $font-color-th: #a4a4a4;
@@ -27,6 +28,7 @@ $font-size: 0.8em;
 $size-day-bg: $font-size * 2.8;
 $size-font-timer : $font-size * 2.5;
 $leftSectionPadding : 0 0.5em 0 2.3em;
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 .sr-only {
   position: absolute;
@@ -37,6 +39,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   overflow: hidden;
   clip: rect(0,0,0,0);
   border: 0;
+
 }
 
 .nuvola5-dateTimePicker-widget {
@@ -65,11 +68,61 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
     &.width42em{
       width: 44em !important;
-      padding: 2em 3em 2em 3.5em;
+      padding: 2em 3.5em 3em 3.5em;
+      // VISTA DEL CALENDARIO EN SIDE BY SIDE
+      & div.datepicker{
+        // tabla day
+
+        // tabla pick month
+        & div.datepicker-months {
+
+          & table{
+            width: 100%;
+            & td{
+              padding: 0;
+              & span{
+                padding: 0;
+              }
+            }
+          }
+        }
+
+        // tabla pick year
+
+
+
+      }
+
+
+
+      // VISTA DE LA HORA EN SIDE BY SIDE
       & div.timepicker{
-        & div.timepicker-picker table{
+        padding:0 0.5em 0 2.5em;;
+        & div.timepicker-picker{
+          & table{
+            padding-left: 0.5em;
+            & tbody tr td {
+              font-size: 11px;
+
+              &.bg-light-grey{
+                padding: 3em 0.9em;
+              }
+
+              &:last-child{
+                text-align: right;
+              }
+
+            }
+          }
+        }
+
+        & div.timepicker-hours table, & div.timepicker-minutes table{
           width: 100%;
           margin: 0 auto;
+          & td{
+            padding: 13px 0px;
+            font-size: 13px;
+          }
         }
       }
 
@@ -84,15 +137,40 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
     &.width20em{
       width: 20em !important;
-      padding-left: 3.4em;
+      padding: 0;
       & div.timepicker{
-        padding: 0;
-        table{
+        padding: 2em;
+        & div.timepicker-picker{
+
+          & table{
+            width: 100%;
+            & tbody tr td {
+              font-size: 11px;
+
+              &.bg-light-grey{
+                padding: 3em 0.9em;
+              }
+              &:last-child{
+                text-align: right;
+              }
+            }
+          }
+        }
+
+        & div.timepicker-hours table, & div.timepicker-minutes table{
           width: 100%;
           margin: 0 auto;
-
+          & td{
+            padding: 18px 0px;
+            font-size: 13px;
+          }
         }
       }
+
+      & li.picker-switch.sidebysidetoolbar{
+        margin-top: -3.8em;
+      }
+
     }
     &.timepicker-sbs {/*
 
@@ -287,9 +365,10 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   .rborder{
     border-right: 1px solid $divider-color;
   }
+
   & div.datepicker {
     padding: 0 2.3em 0 0.5em;
-
+    height: 23em;
 
     table{
       thead {
@@ -319,7 +398,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   }
 
   & div.timepicker {
-    padding:$leftSectionPadding;
+    height: 23em;
      & table {
         thead {
           & tr:first-child {
@@ -536,10 +615,10 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
       span:not(.day-bg) {
         display: inline-block;
-        width: 54px;
-        height: 54px;
-        line-height: 54px;
-        margin: 2px 1.5px;
+        min-width: 22%;
+        height: 43px;
+        margin: 12px 1px;
+        line-height: 45px;
         cursor: pointer;
         border-radius: $bs-datetimepicker-border-radius;
 

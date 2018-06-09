@@ -33,7 +33,7 @@
     z-index: 1060;
     max-width: none !important; }
     .nuvola5-dateTimePicker-widget.dropdown-menu.width42em {
-      width: 44em !important;
+      width: 48em !important;
       padding: 2em 3.5em 3em 3.5em; }
       .nuvola5-dateTimePicker-widget.dropdown-menu.width42em div.datepicker div.datepicker-months table {
         width: 100%; }
@@ -198,7 +198,7 @@
     border-right: 1px solid #c1c0c6; }
   .nuvola5-dateTimePicker-widget div.datepicker {
     padding: 0 2.3em 0 0.5em;
-    height: 23em; }
+    height: 26em; }
     .nuvola5-dateTimePicker-widget div.datepicker table thead tr:first-child {
       font-size: 1.4em;
       color: #1f7b99; }
@@ -207,7 +207,7 @@
     .nuvola5-dateTimePicker-widget div.datepicker table thead tr {
       color: #a4a4a4; }
   .nuvola5-dateTimePicker-widget div.timepicker {
-    height: 23em; }
+    height: 26em; }
     .nuvola5-dateTimePicker-widget div.timepicker table thead tr:first-child {
       font-size: 1.4em;
       color: #1f7b99;

@@ -67,7 +67,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
     max-width: none !important;
 
     &.width42em{
-      width: 44em !important;
+      width: 48em !important;
       padding: 2em 3.5em 3em 3.5em;
       // VISTA DEL CALENDARIO EN SIDE BY SIDE
       & div.datepicker{
@@ -368,7 +368,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
 
   & div.datepicker {
     padding: 0 2.3em 0 0.5em;
-    height: 23em;
+    height: 26em;
 
     table{
       thead {
@@ -398,7 +398,7 @@ $leftSectionPadding : 0 0.5em 0 2.3em;
   }
 
   & div.timepicker {
-    height: 23em;
+    height: 26em;
      & table {
         thead {
           & tr:first-child {

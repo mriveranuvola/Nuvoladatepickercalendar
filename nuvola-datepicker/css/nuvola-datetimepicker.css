@@ -198,7 +198,7 @@
     border-right: 1px solid #c1c0c6; }
   .nuvola5-dateTimePicker-widget div.datepicker {
     padding: 0 2.3em 0 0.5em;
-    height: 26em; }
+    height: 23em; }
     .nuvola5-dateTimePicker-widget div.datepicker table thead tr:first-child {
       font-size: 1.4em;
       color: #1f7b99; }
@@ -207,7 +207,7 @@
     .nuvola5-dateTimePicker-widget div.datepicker table thead tr {
       color: #a4a4a4; }
   .nuvola5-dateTimePicker-widget div.timepicker {
-    height: 26em; }
+    height: 23em; }
     .nuvola5-dateTimePicker-widget div.timepicker table thead tr:first-child {
       font-size: 1.4em;
       color: #1f7b99;

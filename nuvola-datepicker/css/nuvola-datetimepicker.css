@@ -272,8 +272,8 @@
         line-height: 20px;
         color: #777777; }
       .nuvola5-dateTimePicker-widget div.datepicker table td.day {
-        height: 20px;
-        line-height: 20px;
+        height: 2em;
+        line-height: 1.5em;
         width: 20px; }
         .nuvola5-dateTimePicker-widget div.datepicker table td.day.active span.day-bg {
           background-color: #7397ac;
